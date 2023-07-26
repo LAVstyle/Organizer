@@ -31,5 +31,5 @@ def start_web_site(name):
 
 
 def start_file(path):
-    os.startfile({path})
+    os.startfile(f"{path}")
     time.sleep(1)
